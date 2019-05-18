@@ -1,6 +1,6 @@
 #Private project
 
-It is a front-end for a simple portfolio website for a photographer. The site is developed using HTML/CSS and jquery plugins are used to provide extra features. There is only one webpage which is divided in 3 sections.
+It is a front-end for a simple portfolio website for a photographer. The site is developed using HTML/CSS and jQuery plugins are used to provide extra features. There is only one webpage which is divided in 3 sections.
 
 * Home Section - 
 It is a indroductionary page about the photographer or photo studio. It contains various photos taken by the photographer which are slided in a conware fashion using an image slider. Every image gives a little detail about what type of photography the photo falls in. 
@@ -13,7 +13,7 @@ This section has only one purpose to show of the skills of the photographer in a
 * Contact Us Section - 
 This section can be used to contact the photographer by filling a simple contact form or user can contact photographer through his social links given below the form.
 
-# Jquey Plugins used for the website
+# jQuery Plugins used for the website
 
 * Image slider - Slick Slider - https://github.com/kenwheeler/slick
 * Scroll to top - Scrollup - https://github.com/markgoodyear/scrollup
