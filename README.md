@@ -1,4 +1,4 @@
-# sumitmangela.github.io/photo
+#Private project
 
 It is a front-end for a simple portfolio website for a photographer. The site is developed using HTML/CSS and jquery plugins are used to provide extra features. There is only one webpage which is divided in 3 sections.
 
