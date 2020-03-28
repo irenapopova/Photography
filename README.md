@@ -1,4 +1,4 @@
-#Private project
+### Private project
 
 It is a front-end for a simple portfolio website for a photographer. The site is developed using HTML/CSS and jQuery plugins are used to provide extra features. There is only one webpage which is divided in 3 sections.
 
@@ -21,5 +21,5 @@ This section can be used to contact the photographer by filling a simple contact
 
 #### Project is in progress
 ##### TODO
-animation
+To add CSS animation
 
