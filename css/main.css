@@ -46,6 +46,7 @@ body {
 
 .tm-nav div ul {
     text-align: center;
+    display: flex;
 }
 
 .tm-nav div ul li {
@@ -125,13 +126,15 @@ body {
 
 }
 
+.tm-bgimg {
+    position: relative;
 
+}
 
 .tm-bgimg img {
     width: 100%;
     max-width: 100%;
     background-size: cover;
-
 
 
 }
@@ -169,16 +172,28 @@ body {
 
 
 
-
-.tm-bgimg {
+/*set image to fill the entire first screen size*/
+.tm-bg img {
     position: relative;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    /* cover
+    The replaced content is sized to maintain its aspect ratio while filling the element’s entire content box. If the object's aspect ratio does not match the aspect ratio of its box, then the object will be clipped to fit.*/
+
 }
 
 .tm-text {
     position: absolute;
-    top: 58%;
-    right: 11%;
+    top: 68%;
+    right: 6%;
     color: #fff;
+    z-index: 4;
+    background-color: rgba(0, 0, 0, 0.212);
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 28rem;
+    text-align: right;
 }
 
 .tm-text .bold {
@@ -232,6 +247,13 @@ body {
     outline: none;
 }
 
+.tm-bg {
+    height: 100vh;
+}
+
+.tm-bg .slick-list .slick-track {
+    height: 100%;
+}
 
 /* ========= album section  ================*/
 
@@ -239,7 +261,18 @@ body {
     position: relative;
 }
 
-.tm-albumimg img:hover+p {
+.tm-albumimg img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+/* .tm-albumimg {
+    height: 100%;
+} */
+
+*/ .tm-albumimg img:hover+p {
     opacity: 1;
     transition: opacity 1s;
 }

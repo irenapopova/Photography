@@ -21,5 +21,10 @@ This section can be used to contact the photographer by filling a simple contact
 
 #### Project is in progress
 ##### TODO
-To add CSS animation
-
+1. To add CSS animation
+2. 2. to add gallery page 
+3. to add image carousel (the gallery )folder the carousel to the page 
+4. to add different image carousels to introduce the different styles of photography , (landscape, portraits, macro etc)
+5. to add image carousel in the about page with animation
+6. to crate an animated contact form with css
+7. for each type of photography different image carousel ? with animation effect
